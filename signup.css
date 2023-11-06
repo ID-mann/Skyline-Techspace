@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+body {
+    font-family: 'Abel', sans-serif;
+    margin: 0px;
+
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.888);
+    height: 230vh;
+
+
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 255, 0.879);
+    height: 100px;
+ 
+}
+
+.heading1 img {
+    width: 95%;
+    height: 85px;
+    margin-top: 10px;
+ 
+}
+
+
+.heading2 ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    font-size: 25px;
+    
+}
+
+label, #check {
+    display: none;
+}
+
+.heading2 i {
+display: none;
+}
+
+.heading2 ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0 4px;
+}
+
+.heading2 ul li a:hover {
+    color: aquamarine;
+    transition: 1s;
+}
+
+.heading2 ul li sup {
+    background-color: red;
+    border-radius: 10px;
+    padding: 1px;
+    color: black;
+}
+
+.heading2 ul li sup:hover {
+    background-color: aquamarine;
+}
+
+.heading3 {
+    width: 20%;
+    margin-right: 12px;
+    line-height: 80px;
+
+}
+
+.heading3 a:nth-child(1) {
+    border: 1px solid white;
+    font-size: 20px;
+    color: white;
+    margin-right: 4px;
+    text-decoration: none;
+    padding: 6px 30px;
+    border-radius: 6px;
+
+
+}
+
+.heading3 a:nth-child(2):hover {
+    color: aquamarine;
+    transition: 1s;
+}
+
+.heading3 a:nth-child(1):hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.heading3 a:nth-child(2) {
+    background-color: rgba(151, 151, 185, 0.468);
+    color: white;
+    text-decoration: none;
+    padding: 6px 30px;
+    border-radius: 6px;
+    font-size: 20px;
+
+
+}
+
+/* styling for .main div starts here */
+
+
+
+.main h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+
+}
+
+.main p {
+    text-align: center;
+    color: yellow;
+    font-size: 25px;
+    margin-bottom: 45px;
+}
+
+.main a {
+    background-color: blue;
+    padding: 15px 40px;
+    font-size: 24px;
+    color: black;
+    margin-left: 650px;
+    text-decoration: none;
+    font-weight: bold;
+     
+}
+
+span:hover {
+    transform:scale(1.2)
+}
+
+.main form {
+    
+    margin-left: 550px;
+    margin-top: 50px;
+  
+
+}
+
+.main form input {
+    width: 250px;
+    height: 40px;
+    font-size: 17px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+
+}
+
+.main button {
+    font-size: 15px;
+    height: 44px ;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: -7px;
+    
+
+}
+
+.main button:hover {
+    color: rgb(30, 30, 219);
+    transition: 2s;
+}
+
+video {
+    display: block;   
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 15px;
+}
+
+.main-section {
+    margin-bottom: 0;
+}
+
+
+.main-section h2{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.section {
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-left: 60px;
+    padding: 50px;
+    
+}
+
+.section section {
+    padding: 30px;
+}
+
+.section p:nth-child(1) {
+    font-size: 40px;
+}
+
+.section p:nth-child(2) {
+    font-size: 25px;
+    font-weight: bold;
+    color: yellow;
+}
+
+.section p:nth-child(3) {
+    font-size: 18px;
+}
+
+/* styling for .para2 div */
+
+.para2 {
+    background-color: #000;
+    margin-top: -41px;
+}
+    
+
+.para2 h2 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    padding-top: 35px;
+    margin-bottom: 0;
+}
+
+.box {
+    margin: 0 auto;
+}
+
+.box img {
+    width: 100%;
+ 
+}
+
+.flex2 {
+    display: flex;
+    padding: 100px;
+    
+}
+
+.second {
+    
+    width: 620px;
+    margin: 0 auto;
+    background-color: rgba(53, 52, 52, 0.91);
+}
+
+.box-detail {
+  
+    margin-top: -5px;
+    padding: 45px;
+    color: white;
+
+
+}
+
+.box-detail h3 {
+    font-size: 27px;
+    padding-bottom: 20px;
+
+
+}
+
+.box-detail p{
+    font-size: 20px;
+    padding-bottom: 40px;
+}
+
+.box-btn a{
+    background-color: blue;
+    text-decoration: none;
+    padding: 17px;
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
+}
+  
+.fa-solid:hover {
+    transform: scale(1.2);
+    transition: 2s;
+    color: aqua;
+}
+
+/* styling for footer */
+
+footer {
+    margin-top: 0;
+    background-color: #100404;
+    list-style-type: none;
+}
+
+.footer {
+    margin: auto;
+    display: block;
+    /* max-width: 1500px; */
+    width: 85%;
+    display: flex;
+    color: white;
+}
+
+.footer section {
+    width: 20%;
+    padding: 3%;
+
+}
+
+.footer section h3 {
+    font-size: 2rem;
+}
+
+.footer section li {
+    padding: .7em;
+}
+
+.footer section a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer section a:hover {
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.icons {
+    color: white;
+    margin-left: 100px;
+    width: 12%;
+    height: 100px;
+}
+
+.icons a {
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.copy p {
+    font-size: 20px;
+    color: white;
+    padding: 40px;
+    margin-left: 80px;
+}
+
+.copy span:hover {
+    text-decoration: underline;
+    transition: 1s;
+    
+}
+
+.copy span {
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+
+
+/* styling for mobile responsiveness */
+
+@media screen and (max-width: 1426px ) {
+    
+.nav {
+    background-color: lightskyblue;
+
+    position: relative;
+    justify-content: center;
+}
+
+.heading2 ul li {
+
+
+    padding: 10px 0;
+   
+}
+
+
+.heading2 ul {
+    flex-direction: column;
+    position: absolute;
+    background-color: rgb(46, 54, 56);
+    width: 250px;
+    height: 65vh;
+    align-items: flex-start;
+    top: 80%;
+    left: -150%;
+    border-radius: 20px;
+    transition: .1s;
+
+
+}
+
+label {
+    display: block;
+}
+
+#check {
+    
+}
+
+#check:checked ~ ul {
+    left: 0%;
+    
+}
+
+.heading3 {
+    margin-left: 3px;
+    
+}
+
+.heading3 a:nth-child(2) {
+    padding: 2px 10px;
+    background-color: #000;
+    color: lightblue;
+    padding: 4px 8px;
+}
+
+.heading3 a:nth-child(1) {
+    padding: 2px 8px;
+    background-color: rgb(237, 233, 233);
+    color: hsl(204, 45%, 2%);
+    padding: 4px 8px;
+}
+
+.heading2 ul li i {
+    padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+}
